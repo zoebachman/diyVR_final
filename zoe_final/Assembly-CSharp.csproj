@@ -47,9 +47,50 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\MirrorReflection.cs" />
      <Compile Include="Assets\Scripts\MirrorReflection2.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Demo\UniOSCClassBasedDemo.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBImplementation.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBRawImplementation.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBSimple.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventTargetCBImplementation.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\UniOSCEventDispatcherCB.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\UniOSCEventTargetCB.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCChangeColor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherButton.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherImplementation.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherMultiAddressSender.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherMultiConnectionSender.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherSlider.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherToggle.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCEventTargetImplementation.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCMoveGameObject.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCRotateGameObject.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCRotateGameObjectTouchOSCGyro.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCScaleGameObject.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCToggle.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\UniOSCTransformSender.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\GUIScaler.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\UniOSCEditorConfigObj.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\UniOSCFileObj.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\UniOSCMappingFileObj.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\UniOSCSessionFileObj.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCAbstractItem.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCConnection.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCEventArgs.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCEventDispatcher.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCEventTarget.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCGUI.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCMappingItem.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCReceiver.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCSessionItem.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCTransmitter.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\UniOSCUtils.cs" />
+     <None Include="Assets\UniOSC\Examples\MappingFiles\Read.Me.First!.txt" />
      <None Include="Assets\Shaders\Mirror2.shader" />
+     <None Include="Assets\UniOSC\Scripts\External\InputDevices\ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Shaders\Mirror.shader" />
+     <None Include="Assets\UniOSC\Scripts\External\Flux\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Models\indoor_plant2\Indoor plant_2.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -63,6 +104,9 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>C:/Users/itpstudent/Documents/zoe_final/Assets/UniOSC/Lib/OSCsharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

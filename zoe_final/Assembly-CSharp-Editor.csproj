@@ -46,9 +46,26 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ClassBased\Demo\Editor\UniOSCScriptTestEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCAutoRun.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCConnectionEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCEventDispatcherEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCEventTargetEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCMappingItemEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Editor\UniOSCSessionItemEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\Editor\UniOSCChangeColorEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\Editor\UniOSCEventDispatcherButtonEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\Editor\UniOSCRotateGameObjectEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\Example.Components\Editor\UniOSCToggleEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\Editor\UniOSCMappingFileObjEditor.cs" />
+     <Compile Include="Assets\UniOSC\Scripts\ScriptableObjects\Editor\UniOSCSessionFileObjEditor.cs" />
+     <None Include="Assets\UniOSC\Examples\MappingFiles\Read.Me.First!.txt" />
      <None Include="Assets\Shaders\Mirror2.shader" />
+     <None Include="Assets\UniOSC\Scripts\External\InputDevices\ReadMe.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Shaders\Mirror.shader" />
+     <None Include="Assets\UniOSC\Scripts\External\Flux\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Models\indoor_plant2\Indoor plant_2.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -81,6 +98,9 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>C:/Users/itpstudent/Documents/zoe_final/Assets/UniOSC/Lib/OSCsharp.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -89,9 +109,6 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/2015/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
